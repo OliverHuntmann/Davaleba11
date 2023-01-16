@@ -1,0 +1,90 @@
+body{
+    width: auto;
+    background-image: url(../PALME_753x534\,jpg.jpg);
+   background-size: cover; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.container{
+    width: 600px;
+    height: 600px;
+    margin: 200 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    position: absolute;
+}
+.glass{
+    background: linear-gradient(135deg, rgba(182, 175, 175, 0.168), rgba(255, 255, 255, 0.174));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(62, 60, 60, 0.479);
+    display: flex;
+    margin-top: 18%;
+}
+h1{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.name{
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid rgb(8, 219, 8);
+}
+.sex{
+    display: flex;
+    justify-content: center;
+    gap: 30px;  
+}
+.txt{
+    display: flex;
+    position: relative;
+    translate: 0px 150px;
+    flex-direction: column;
+    width: 300px;
+    gap: 20px;
+    color: greenyellow;
+}
+.lists{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    border-radius: 10px;    
+    color: white;
+    height: 30px;
+    background-color: red;
+    border: none;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    border-radius: 10px;    
+    color: white;
+    height: 30px; 
+    background-color: green;
+    border: none;
+}
+.r-s{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 40px;
+    gap: 15px;
+}
+input{
+    color: white;
+}
